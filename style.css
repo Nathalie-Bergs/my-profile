@@ -1,0 +1,143 @@
+selector {
+	property: value;
+}
+/* Colors and fonts */
+body {
+	background-color: rgb(255,215,0);
+	color: rgb(20,20,20);
+	font-family:'IBM Plex Serif', serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'IBM Plex', sans-serif;
+	color: rgba(20,0,150,0.8);
+	font-weight: 700;
+}
+
+h2, h3, p1  {
+	font-family: 'Roboto', sans-serif;
+	color: rgba(20,0,150,0.8);
+}
+
+h1 {
+	color: rgba(20,0,150,0.8);
+	letter-spacing: 5px;
+	font-size: 40px;
+	/*font-weight: bold ;*/
+}
+
+p1 {
+	font-size: 20px;
+	font-weight: lighter;
+	/*text-justify: center;*/
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold; 
+	color: rgba(20,0,150,0.8);
+}
+a:hover { 
+	color: red; 
+}
+
+
+/* Custom design with class*/
+
+.container {
+	width: 800px; 
+	margin: 40px auto;
+	}
+
+@media (max-width: 800px) {
+	.container {
+		width: 600px;
+		margin: 40px auto;
+	}
+}
+
+@media (max-width: 650px) {
+	.container {
+		width: 400px;
+		margin: 40px auto;
+	}
+}
+
+
+.image-circle { 
+	max-width: 30%;
+	border-radius: 50% ; 
+	display: block ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px
+}
+
+
+.box-orange {
+	background-color: rgba(200,60,0,0.4);
+	padding: 20px;
+	margin: 15px 0px;
+	box-shadow: 0px 20px 30px rgba(0,0,0,0.1);  /* rgba(150,10,0,0.1);*/
+	border-radius: 3px;
+	text-align: center; 
+}  
+
+.button-blue {
+	background-color: rgba(20,0,150,0.8);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+
+.button-blue:hover {
+	background-color: rgba(0,0,230,0.8);
+	color:white;
+
+}
+
+.list-vertical {
+	padding-left: 0px;
+	margin: 10px 0px 30px 0px;
+}
+
+.list-inline {
+	list-style: none; /*get rid of the bullet points*/ 
+	padding-left: 0px; /*get rid of the padding on the left */
+}
+
+.list-inline li {  /*descendant selector (select items inside another element)*/
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i { /* i stands for the icons*/
+font-size: 30px;
+color: rgba(100,0,150,0.8);
+ }
+
+.list-inline i:hover { /* i stands for the icons*/
+color: rgba(0,0,230,0.8);
+ }
+
+
+
+/*#introduction p2 {
+	margin-bottom: 80px;
+} */
+
+
+/* mooie donkerpaarse kleur: rgb(75,40,100);  
+
+color:#FF530D
+
+mooi rood: rgba(200,0,150,0.8); */
