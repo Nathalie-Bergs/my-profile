@@ -1,9 +1,11 @@
 selector {
 	property: value;
 }
+
+
 /* Colors and fonts */
 body {
-	background-color: rgb(255,215,0);
+	background-color: rgb(255,255,255);
 	color: rgb(20,20,20);
 	font-family:'IBM Plex Serif', serif;
 	font-size: 16px;
@@ -85,8 +87,8 @@ a:hover {
 .box-orange {
 	background-color: rgba(200,60,0,0.4);
 	padding: 20px;
-	margin: 15px 0px;
-	box-shadow: 0px 20px 30px rgba(0,0,0,0.1);  /* rgba(150,10,0,0.1);*/
+	margin: 30px 0px;
+	box-shadow: 0px 20px 20px rgba(0,0,0,0.2);  /* rgba(150,10,0,0.1);*/
 	border-radius: 3px;
 	text-align: center; 
 }  
@@ -129,6 +131,14 @@ color: rgba(100,0,150,0.8);
 color: rgba(0,0,230,0.8);
  }
 
+.banner {
+	background-image: url("images/background1.jpg");
+	color: black;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+
+} 
 
 
 /*#introduction p2 {
